@@ -153,11 +153,13 @@ a {
  display: flex;
 }
 .project-container {
- background-color: blue;
+ background-color: rgb(56, 56, 230);
  width: 55rem;
  height: 40rem;
  display: flex;
- justify-content: space-around;
+ align-items: center;
+ flex-wrap: wrap;
+ justify-content: center;
 }
 .project {
  width: 25rem;
@@ -167,20 +169,20 @@ a {
  display: flex;
  flex-direction: column;
  justify-content: space-around;
+ margin: 0 auto;
 }
 .project-title {
- margin-top: 0.8rem;
  width: 10rem;
  height: 3rem;
- border-radius: 20px;
+ border-radius: 40px;
  margin-left: 8rem;
- background-color: chocolate;
+ background-color: rgb(93, 64, 42);
 }
 .project-logo {
- margin-top: 15px;
+ margin-top: 3rem;
  width: 7rem;
  height: 7rem;
  border-radius: 50%;
- margin-left: 2rem;
- background-color: chocolate;
+ margin-left: 1rem;
+ background-color: rgb(59, 51, 45);
 }

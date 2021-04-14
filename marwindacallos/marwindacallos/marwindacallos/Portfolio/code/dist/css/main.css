@@ -215,14 +215,20 @@ a {
 }
 
 .project-container {
-  background-color: blue;
+  background-color: #3838e6;
   width: 55rem;
   height: 40rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .project {
@@ -239,23 +245,23 @@ a {
           flex-direction: column;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  margin: 0 auto;
 }
 
 .project-title {
-  margin-top: 0.8rem;
   width: 10rem;
   height: 3rem;
-  border-radius: 20px;
+  border-radius: 40px;
   margin-left: 8rem;
-  background-color: chocolate;
+  background-color: #5d402a;
 }
 
 .project-logo {
-  margin-top: 15px;
+  margin-top: 3rem;
   width: 7rem;
   height: 7rem;
   border-radius: 50%;
-  margin-left: 2rem;
-  background-color: chocolate;
+  margin-left: 1rem;
+  background-color: #3b332d;
 }
 /*# sourceMappingURL=main.css.map */
